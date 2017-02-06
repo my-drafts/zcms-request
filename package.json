@@ -1,23 +1,26 @@
 {
-	"name": "zcms-request",
-	"version": "0.0.0",
-	"description": "",
-	"main": "index.js",
-	"scripts": {
-		"debug": "",
-		"fork": "",
-		"start": "",
-		"stop": "",
-		"test": "node test"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/sergej-kucharev/zcms-request.git"
-	},
-	"author": "Sergiy Kukharyev",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/sergej-kucharev/zcms-request/issues"
-	},
-	"homepage": "https://github.com/sergej-kucharev/zcms-request#readme"
+  "name": "zcms-request",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "debug": "",
+    "fork": "",
+    "start": "",
+    "stop": "",
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergej-kucharev/zcms-request.git"
+  },
+  "author": "Sergiy Kukharyev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergej-kucharev/zcms-request/issues"
+  },
+  "homepage": "https://github.com/sergej-kucharev/zcms-request#readme",
+  "dependencies": {
+    "ztype": "^1.1.7"
+  }
 }
