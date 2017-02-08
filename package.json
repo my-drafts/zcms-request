@@ -1,6 +1,6 @@
 {
   "name": "zcms-request",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/sergej-kucharev/zcms-request#readme",
   "dependencies": {
-    "ztype": "^1.1.7"
+    "ztype": "latest"
   }
 }
