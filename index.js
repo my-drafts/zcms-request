@@ -5,7 +5,7 @@ const http = require('http');
 const uf = require('util').format;
 const zt = require('ztype');
 
-const request2GET = require('./lib/request2GET');
+const request2GET = require('./lib/zrequest2GET');
 
 const ZRequestWrapper = require('./ZRequestWrapper');
 

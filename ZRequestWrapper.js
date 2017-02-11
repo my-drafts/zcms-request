@@ -3,18 +3,18 @@
 
 const zt = require('ztype');
 
-const request2headers = require('./lib/constructor/request2headers');
-const request2host = require('./lib/constructor/request2method');
-const request2httpVersion = require('./lib/constructor/request2httpVersion');
-const request2method = require('./lib/constructor/request2method');
-const request2path = require('./lib/constructor/request2path');
-const request2port = require('./lib/constructor/request2port');
-const request2query = require('./lib/constructor/request2query');
-const request2statusCode = require('./lib/constructor/request2statusCode');
-const request2statusMessage = require('./lib/constructor/request2statusMessage');
+const request2headers = require('./lib/request2headers');
+const request2host = require('./lib/request2method');
+const request2httpVersion = require('./lib/request2httpVersion');
+const request2method = require('./lib/request2method');
+const request2path = require('./lib/request2path');
+const request2port = require('./lib/request2port');
+const request2query = require('./lib/request2query');
+const request2statusCode = require('./lib/request2statusCode');
+const request2statusMessage = require('./lib/request2statusMessage');
 
-const request2GET = require('./lib/run/request2GET');
-const request2POSTandUPLOAD = require('./lib/run/request2POSTandUPLOAD');
+const request2GET = require('./lib/zrequest2GET');
+const request2POSTandUPLOAD = require('./lib/zrequest2POST');
 
 const re = [
 	/^(.*[\/])([^\/]*)$/i,
