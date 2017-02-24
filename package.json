@@ -1,6 +1,6 @@
 {
   "name": "zcms-request",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -24,6 +24,7 @@
     "http": "0.0.0",
     "multiparty": "^4.1.3",
     "querystring": "^0.2.0",
+    "util": "^0.10.3",
     "zrequest": "latest",
     "ztype": "latest"
   },
