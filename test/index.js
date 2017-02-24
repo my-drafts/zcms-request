@@ -1,5 +1,16 @@
 #!/usr/bin/env node
+
 'use strict';
+
+const a = {
+	b:1, a:2
+};
+
+console.log(Object.keys(a));
+
+for(let x in a){
+	console.log(x, a[x]);
+}
 
 const http = require('http');
 const ZRequest = require('../').ZRequest;
